@@ -33,7 +33,12 @@ nav,
   display: flex;
 }
 
+#desktop-nav{
+  position: sticky;
+}
+
 nav {
+  position: sticky;
   justify-content: space-around;
   align-items: center;
   height: 17vh;
