@@ -7,8 +7,8 @@ function toggleMenu() {
 
 function downloadCV() {
     const link = document.createElement('a');
-    link.href = 'assets/CV.pdf';
-    link.download = 'CV.pdf'; 
+    link.href = 'assets/DeeproChakraborty_CV.pdf';
+    link.download = 'DeeproChakraborty_CV.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
